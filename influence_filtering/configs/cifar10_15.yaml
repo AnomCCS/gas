@@ -1,0 +1,20 @@
+---
+  dataset: "cifar10"
+  # Learner parameters
+  num_ff_layers: 0
+  num_epoch: 10
+  num_subepoch: 3
+  batch_size: 64
+  optim: "Adam"
+  learning_rate: 1E-3
+  weight_decay: 1E-3
+  validation_split_ratio: 0.16666667
+  # Change prediction from targ_cls -> pois_cls
+  targ_cls: 1
+  pois_cls: 5
+  # influence function parameters
+  hvp_batch_size: 1
+  damp: 5E-3
+  scale: 1E4
+  r_depth: 1000
+  t_repeats: 10

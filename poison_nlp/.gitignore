@@ -1,0 +1,19 @@
+.data/
+artifacts/
+checkpoints/
+models/
+raw_*/
+res/
+*.txt
+# Language model downloaded files
+roberta.base/
+encoder.json*
+encoder.json.*
+vocab.bpe
+vocab.bpe.*
+# Cython files
+*.cpp
+*.cu
+*.cuh
+clib/
+*.pyx

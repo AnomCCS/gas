@@ -1,0 +1,6 @@
+.data/
+artifacts/
+models/
+raw_*/
+res/
+*.txt

@@ -1,0 +1,7 @@
+GENERATE_PLOTS = False
+
+START_EPOCH = 1
+SPEEDUP = True
+
+MIN_NORM = 1E-12  # Represents the minimum norm observed.  Prevents divide by zero erros
+MIN_LOSS = 1E-12  # Prevents divide by zero errors
